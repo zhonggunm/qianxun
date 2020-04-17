@@ -1,0 +1,29 @@
+### common
+target/
+temp/
+image/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### dist
+src/main/resources/static/dist/
+
+### maven
+target/
+
+### node
+etc/
+node/
+node_modules/
+npm-debug.log
+
+.DS_Store
+dist/
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports

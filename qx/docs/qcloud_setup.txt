@@ -1,0 +1,17 @@
+
+sudo dpkg -l
+
+mysql
+sudo apt-get install mysql-server
+/usr/bin/mysqladmin -u root password "-"
+
+TOMCAT:
+#no need to install java, 'cause it is covered by tomcat8
+sudo apt-get install tomcat8
+sudo /etc/init.d/tomcat8 restart
+
+i18n
+sudo locale -a
+cd /usr/share/locales
+sudo ./install-language-pack zh_CN
+sudo locale-gen
